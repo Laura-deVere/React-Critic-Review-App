@@ -1,0 +1,15 @@
+@import "sass/variables.scss";
+@import "sass/loader.scss";
+@import "sass/common.scss";
+@import 'sass/main_nav.scss';
+@import "sass/blog.scss";
+@import "sass/transitions.scss";
+
+body {
+  margin: 0;
+  background-color: $black;
+  font-family: $fontFamily;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

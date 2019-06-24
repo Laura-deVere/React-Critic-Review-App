@@ -1,0 +1,33 @@
+#loader {
+	/*background-color: black;*/
+	width: 100vw;
+ 	height: 100vh;
+  	font-size: 2em;
+	  -webkit-transition: opacity 0.2s linear;
+	  -moz-transition: opacity 0.2s linear;
+	  -o-transition: opacity 0.2s linear;
+	  transition: opacity 0.2s linear;
+	  transition: opacity 0.3s;
+	  div {
+	  	width: 10px;
+	  }
+}
+
+#other-loader {
+	/*width: 1%;*/
+	background-color: $green;
+	z-index: 2147483647;
+	height: 100%;	
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  	color: $purple;
+}
+
+.loader--hide {
+	opacity: 0;
+	div {
+		opacity: 0;
+	}
+}

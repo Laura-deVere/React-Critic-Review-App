@@ -1,0 +1,63 @@
+/*REVIEWS LIST ITEMS*/
+.expand-transition {
+	height: 450px;
+	transition: height 500ms linear;
+}
+.collapse-transition {
+	height: 250px;
+	transition: height 200ms linear;
+}
+.rotate-transition {
+	transform: rotate(-45deg);
+	transition: transform 100ms linear; 
+}
+
+
+/*.expand-transition-enter {
+	height: 450px;
+}
+
+.expand-transition-enter-active {	
+	height: 450px;
+	transition: height 2000ms linear;
+}
+
+.expand-transition-exit {
+	height: 450px;
+}
+
+.expand-transition-exit-active {
+	height: 450px;
+	transition: height 2000ms linear;
+}
+
+.expand-transition-exit-done {
+	height: 450px;
+}
+
+.expand-transition-appear {
+	height: 450px;
+}
+
+.expand-transition-appear-active {
+	height: 450px;
+	transition: height 2000ms linear;
+}*/
+/*
+.expand-transition-transition
+
+.expand-transition-appear.expand-transition-appear-active {
+}
+
+.expand-transition-exit {
+	height: 450px;
+}
+
+.expand-transition-exit.expand-transition-exit-active {
+	height: 250px;
+	transition: height 150ms linear, ease-out
+}
+
+.expand-transition-exit-done {
+	height: 250px;
+}*/

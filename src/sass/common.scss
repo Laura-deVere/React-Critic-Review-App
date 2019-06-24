@@ -1,0 +1,42 @@
+.flex-row {
+	display: flex;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	width: 90%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.about {
+	height: 100%;
+	width: 60%;
+	/*border-right: 1px solid $green;*/
+	margin: 0;
+	float: left;
+	p {
+		margin: 0;
+		/*border-bottom: 1px solid $green;*/
+		padding: 50px;
+	}
+	ol {
+		padding: 10px 0px 10px 100px;
+		margin: 0; 
+	}
+}
+
+.headshot {
+	max-width: 400px;
+	height: auto;
+	float: left;
+	padding-top: 50px;
+}
+
+.ab-head {
+	padding: 0;
+}
