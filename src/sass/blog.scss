@@ -53,7 +53,8 @@
 
 .review-container {
 	height: 100%;
-	width: 70%;
+	min-width: 70%;
+	max-width: 70%;
 	border-right: 1px solid $green;
 	margin: 0;
 	padding: 40px 20px;
@@ -64,19 +65,36 @@
 	h2 {
 		margin-bottom: 50px;
     	margin-top: 50px;
+    	font-size: 1em;
 	}	
 	img {
-		width: 200px;
-		height: auto;
-		padding: 20px 30px;
-		}
+		display: none;
+	}
 	span, a p { 
-		padding: 10px 0;
+		padding: 10px 10px;
 	}	
 	/*}*/
 }
 
 .ord {
-	font-size: 4em;
+	font-size: 2em;
 	padding: 30px;
+}
+
+@media (min-width: 830px) { 
+	.review-container {
+		h2 {
+			font-size: 1.5em;
+		}
+		img {
+			display: block;
+			width: 200px;
+			height: auto;
+			padding: 20px 30px;
+		}
+	}
+	.ord {
+		font-size: 4em;
+		padding: 30px;
+	}
 }

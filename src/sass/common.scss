@@ -10,12 +10,12 @@
 .container {
 	width: 90%;
 	padding: 0;
-	margin: 0 auto;
+	margin: 0 auto 100px auto;
 }
 
 .about {
 	height: 100%;
-	width: 60%;
+	width: 100%;
 	/*border-right: 1px solid $green;*/
 	margin: 0;
 	float: left;
@@ -31,12 +31,27 @@
 }
 
 .headshot {
-	max-width: 400px;
-	height: auto;
-	float: left;
-	padding-top: 50px;
+	max-width: 300px;
+    height: auto;
+    /* float: left; */
+    padding-top: 50px;
+    display: block;
+    margin: 0 auto 100px auto;
 }
 
 .ab-head {
 	padding: 0;
+}
+
+@media (min-width: 760px) { 
+	.about {
+		width: 60%;
+	}
+	.headshot {
+		max-width: 400px;
+    	margin: 0 auto;
+	}
+	.container {
+		margin: 0 auto;
+	}
 }

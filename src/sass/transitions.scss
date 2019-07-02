@@ -1,6 +1,6 @@
 /*REVIEWS LIST ITEMS*/
 .expand-transition {
-	height: 450px;
+	height: 575px;
 	transition: height 500ms linear;
 }
 .collapse-transition {
@@ -12,6 +12,21 @@
 	transition: transform 100ms linear; 
 }
 
+
+@media (min-width: 760px) { 
+	.expand-transition {
+	height: 475px;
+	transition: height 500ms linear;
+}
+.collapse-transition {
+	height: 250px;
+	transition: height 200ms linear;
+}
+.rotate-transition {
+	transform: rotate(-45deg);
+	transition: transform 100ms linear; 
+}
+}
 
 /*.expand-transition-enter {
 	height: 450px;

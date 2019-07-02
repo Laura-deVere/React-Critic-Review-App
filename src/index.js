@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './index.scss';
 import * as serviceWorker from './serviceWorker';
 
@@ -8,7 +8,7 @@ import axios from 'axios';
 
 import NavBar from './Components/NavBar';
 import About from './Components/About';
-import Contact from './Components/Contact';
+import Form from './Components/Form';
 import List from './Components/List';
 
 const API_KEY = `${process.env.REACT_APP_MOVIE_API}`;
@@ -44,7 +44,7 @@ class App extends Component {
 			    	<NavBar />
 			        <Route exact path="/" render={(props) => <List {...props} articles={this.state.data} />} />
 			        <Route path="/about" component={About} />
-			        <Route path="/contact" component={Contact} />
+			        <Route path="/form" component={Form} />
 			    </div>
 		  	</Router>
 		)

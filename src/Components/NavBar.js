@@ -17,7 +17,7 @@ class NavBar extends Component {
 						<Link to="/">Blog</Link>
 					</li>
 					<li>
-						<Link to="/contact">Contact</Link>
+						<Link to="/form">Contact</Link>
 					</li>
 				</ul>
 			</nav>

@@ -18,9 +18,8 @@ const About = () => {
 					<li>copper mug art party 90's</li>
 				</ol>
 				<p>
-					Flannel blue bottle single-origin coffee DIY distillery pop-up poutine organic. Live-edge gastropub pork belly, iPhone cardigan fashion axe raclette single-origin coffee tattooed 8-bit la croix chartreuse viral truffaut affogato. Celiac photo booth direct trade copper mug art party 90's. Listicle vaporware swag, mlkshk activated charcoal waistcoat chia farm-to-table. Street art VHS crucifix swag iceland dreamcatcher. Vexillologist post-ironic bespoke la croix mumblecore godard raclette gentrify.
-				</p>
-
+					Flannel blue bottle single-origin coffee DIY distillery pop-up poutine organic. Live-edge gastropub pork belly, iPhone cardigan fashion axe raclette.
+				</p>	
 			</div>
 			<img className="headshot" src={img}/>
 		</div>

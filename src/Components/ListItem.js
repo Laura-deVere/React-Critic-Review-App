@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import IosAdd from 'react-ionicons/lib/IosAdd';
 
 const ListItem = ({article, order}) => {
@@ -31,7 +31,7 @@ const ListItem = ({article, order}) => {
 				</div>
 			</div>
 			<button className={expanded ? 'rotate-transition' : ''} onClick={() => handleClick()} >
-				<IosAdd fontSize="8em" color="#fff" />
+				<IosAdd fontSize="50%" color="#fff" />
 			</button>
 		</li>
 	)

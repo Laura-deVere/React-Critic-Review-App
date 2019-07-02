@@ -6,7 +6,7 @@
       "firebase.json",
       ".firebaserc",
       ".git",
-      ".gitignore",
+      ".gitignore"
     ],
     "rewrites": [
       {
